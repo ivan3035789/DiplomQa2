@@ -193,8 +193,8 @@ public class ClaimsScreenStep {
 
     @Step("Проверка комментария до редактирования и после")
     public void checkingTheCommentBeforeEditingAndAfter(String validTextComment) {
-        onView(allOf(withId(R.id.comment_description_text_view), withText(validTextComment.trim()),
-                withParent(withParent(withId(R.id.claim_comments_list_recycler_view))))).check(matches(withText(validTextComment.trim()))).check(matches(isDisplayed()));
+        onView(allOf(withId(R.id.comment_description_text_view), withText(validTextComment),
+                withParent(withParent(withId(R.id.claim_comments_list_recycler_view))))).check(matches(withText(validTextComment))).check(matches(isDisplayed()));
     }
 
     @Step("Проверка добавленного комментария ")
