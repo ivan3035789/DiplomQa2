@@ -39,6 +39,14 @@ public class FilteringWindowScreenElements {
                     withParent(allOf(withId(R.id.all_claims_cards_block_constraint_layout),
                             withParent(withId(R.id.container_list_claim_include))))));
 
+    public ViewInteraction getFilteringButton() {
+        return filteringButton;
+    }
+
+    public ViewInteraction getWarningMessage() {
+        return warningMessage;
+    }
+
     public ViewInteraction getCheckBoxOpen() {
         return checkBoxOpen;
     }

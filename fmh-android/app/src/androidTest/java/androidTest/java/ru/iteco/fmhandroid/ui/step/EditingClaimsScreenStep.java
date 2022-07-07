@@ -12,7 +12,6 @@ import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
 import static androidx.test.espresso.matcher.ViewMatchers.withId;
 import static androidx.test.espresso.matcher.ViewMatchers.withText;
 import static junit.framework.TestCase.assertEquals;
-import static org.hamcrest.core.IsNot.not;
 import static org.junit.Assert.assertNotEquals;
 import static androidTest.java.ru.iteco.fmhandroid.ui.data.Helper.Rand.randomClaims;
 import static androidTest.java.ru.iteco.fmhandroid.ui.data.Helper.Rand.randomExecutor;

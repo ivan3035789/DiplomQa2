@@ -29,6 +29,14 @@ public class FilterNewsScreenElements {
             allOf(withId(R.id.news_item_publish_date_end_text_input_edit_text), withHint("DD.MM.YYYY"),
                     withParent(withParent(withId(R.id.news_item_publish_date_end_text_input_layout)))));
 
+    public ViewInteraction getFilterNewsPage() {
+        return filterNewsPage;
+    }
+
+    public ViewInteraction getTextInputEnd() {
+        return textInputEnd;
+    }
+
     public ViewInteraction getFieldNameCategory() {
         return fieldNameCategory;
     }

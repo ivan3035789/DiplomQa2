@@ -205,4 +205,5 @@ public class CreatingNewsScreenStep {
     public String descriptionNews() {
         return Helper.Text.getText(onView(withIndex(withId(R.id.news_item_description_text_view), 0)));
     }
+
 }

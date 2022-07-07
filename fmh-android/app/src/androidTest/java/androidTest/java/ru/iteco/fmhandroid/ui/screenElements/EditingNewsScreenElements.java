@@ -117,8 +117,20 @@ public class EditingNewsScreenElements {
         return descriptionField;
     }
 
+    public ViewInteraction getNewsItemTitle() {
+        return newsItemTitle;
+    }
+
     public ViewInteraction getCheckBox() {
         return checkBox;
+    }
+
+    public ViewInteraction getStatusNotActive() {
+        return statusNotActive;
+    }
+
+    public ViewInteraction getStatusActive() {
+        return statusActive;
     }
 
     public ViewInteraction getSaveButton() {

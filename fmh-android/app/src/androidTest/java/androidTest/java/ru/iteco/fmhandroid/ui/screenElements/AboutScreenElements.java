@@ -18,6 +18,8 @@ public class AboutScreenElements {
     private final ViewInteraction teco = onView(withId(R.id.about_company_info_label_text_view));                    // "I-Teco, 2022"
     private final ViewInteraction aboutExitButton = onView(withId(R.id.about_back_image_button));
 
+
+
     public ViewInteraction getAboutExitButton() {
         return aboutExitButton;
     }
