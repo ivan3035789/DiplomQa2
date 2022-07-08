@@ -18,11 +18,9 @@ jobs:
         java-version: '11'
         distribution: 'adopt'
         cache: gradle
-
-    - name: Setup and run tests
-      working-directory: ./app
       
     - name: Grant execute permission for gradlew
+      working-directory: ./app
       run: chmod +x gradlew
     
     - name: Build with Gradle
@@ -38,9 +36,9 @@ jobs:
         java-version: '11'
         distribution: 'adopt'
         cache: gradle
-    - name: Setup and run tests
-      working-directory: ./app
+
     - name: Grant execute permission for gradlew
+      working-directory: ./app
       run: chmod +x gradlew
       
     - name: run tests
