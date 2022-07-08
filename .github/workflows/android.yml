@@ -20,7 +20,7 @@ jobs:
         cache: gradle
       
     - name: Grant execute permission for gradlew
-      working-directory: ./app
+      working-directory: fmh-android
       run: chmod +x gradlew
     
     - name: Build with Gradle
@@ -38,7 +38,7 @@ jobs:
         cache: gradle
 
     - name: Grant execute permission for gradlew
-      working-directory: ./app
+      working-directory: fmh-android
       run: chmod +x gradlew
       
     - name: run tests
